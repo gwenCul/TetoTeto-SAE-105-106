@@ -1,5 +1,5 @@
 NOTES
-- nom
+- nom ✔
 - logo
 - > Accueil "index.html" (présentation grossière, liens vers les autres pages)
   > 3 pages de Sites Touristiques (avec images, audios, vidéos, ...)
