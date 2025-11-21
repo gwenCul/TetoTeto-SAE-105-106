@@ -1,0 +1,53 @@
+.mainmenubtn {
+    background-color: #B81919;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainmenubtn2 {
+    background-color: #b8191900;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+.mainMENU {
+    background-color: #B81919;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainMENU:hover {
+    background-color: #9c1818;
+    }
+.fullmenu{
+    background-color: #B81919;
+}
+img{
+
+}
+.mainmenubtn:hover {
+    background-color: #9c1818;
+    }
+.bar-destinations {
+    position: relative;
+    display: inline-block;
+}
+.destinations {
+    display: none;
+    background-color: #BC3131;
+    min-width: 20px;
+}
+.destinations a {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.bar-destinations:hover .destinations {
+    display: block;
+}
