@@ -1,0 +1,45 @@
+.bg {
+    background-color: rgb(204, 157, 123);
+
+}
+
+box {
+    margin: 20px;
+    
+}
+
+.head-left {
+    float: left;
+    
+}
+
+.head-right {
+    float: right;
+
+}
+
+.title {
+    font-weight: bold;
+    font-size:xx-large;
+    color: rgb(187, 12, 12);
+}
+
+.button{
+ padding: 20px;
+}
+
+.sub {
+    display: none;
+    background-color: #BC3131;
+    min-width: 20px;
+}
+.sub a {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-decoration: none;
+    display: block
+}
+
+.menubtn:hover .sub {
+    display: block;
+}

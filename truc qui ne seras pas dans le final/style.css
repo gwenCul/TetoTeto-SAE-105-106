@@ -1,53 +1,65 @@
+/* Bouton du menu déroulant */
 .mainmenubtn {
     background-color: #B81919;
     color: white;
     border: none;
     cursor: pointer;
-    padding:20px;
-    margin-top:20px;
+    padding: 20px;
+    margin-top: 20px;
 }
+
 .mainmenubtn2 {
-    background-color: #b8191900;
+    background-color: transparent;
     color: white;
     border: none;
     cursor: pointer;
-
 }
+
 .mainMENU {
     background-color: #B81919;
     color: white;
-    border: none;
-    cursor: pointer;
-    padding:20px;
-    margin-top:20px;
+    padding: 20px;
 }
+
 .mainMENU:hover {
     background-color: #9c1818;
-    }
-.fullmenu{
+}
+
+.fullmenu {
     background-color: #B81919;
 }
-img{
 
-}
-.mainmenubtn:hover {
-    background-color: #9c1818;
-    }
-.bar-destinations {
+/* Menu déroulant */
+.bt {
     position: relative;
-    display: inline-block;
 }
+
 .destinations {
     display: none;
+    position: absolute;
     background-color: #BC3131;
-    min-width: 20px;
+    min-width: 150px;
+    right: 0;
+    z-index: 10;
 }
+
 .destinations a {
-    color: rgb(255, 255, 255);
-    padding: 20px;
+    color: white;
+    padding: 15px;
+    display: block;
     text-decoration: none;
+}
+
+.destinations a:hover {
+    background-color: #9c1818;
+}
+
+.bardestinations:hover .destinations {
     display: block;
 }
-.bar-destinations:hover .destinations {
-    display: block;
+
+/* Espace vide à droite du menu */
+.mainmenuvoid {
+    background-color: #B81919;
+    width: 100%;
 }
