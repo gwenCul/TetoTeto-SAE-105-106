@@ -1,0 +1,120 @@
+.mainmenubtn {
+    background-color: #B81919;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.mainmenubtn2 {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.mainMENU {
+    background-color: #B81919;
+    color: white;
+    padding: 20px;
+}
+
+.mainMENU:hover {
+    background-color: #9c1818;
+}
+
+.fullmenu {
+    background-color: #B81919;
+}
+
+.bardestinations {
+    position: relative;
+}
+
+.destinations {
+    display: none;
+    position: absolute;
+    background-color: #BC3131;
+    min-width: 150px;
+    right: 0;
+    z-index: 10;
+}
+
+.destinations a {
+    color: white;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+}
+
+.destinations a:hover {
+    background-color: #9c1818;
+}
+
+.bardestinations:hover .destinations {
+    display: block;
+}
+
+.mainmenuvoid {
+    background-color: #B81919;
+    width: 100%;
+}
+footer{
+    z-index: -1;
+    opacity: 1;
+    position: absolute;
+    height: 56px;
+    width: 100%;
+    background: var(--yt-spec-base-background);
+}
+
+body{
+    background-color: #F5F5F5;
+}
+.textbox{
+    background-color: #ffffff;
+}
+
+.textrights{
+    float: left;
+}
+.titredemerde{
+
+}
+.imagefrade{
+position: absolute;
+
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+  to top,
+  #eeeeee00 7%,
+  #333333f6 99%
+);
+background-clip: titltitretextetextsx;
+}
+.wrapper {
+  position: relative;
+  display: inline-block;
+}
+.imagebg{ 
+    background-image: url("images.jpg");
+    background-size: 1000px 300px;
+    width: 10090px;
+    height: 300px;
+
+}
+.titretext{
+    position: absolute;
+    margin: 10px;
+    margin-left: 450px;
+    margin-right: 450px;
+   
+}
+.titletextsx{
+    color: white;
+}
