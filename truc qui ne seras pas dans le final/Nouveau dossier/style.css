@@ -3,8 +3,10 @@
     color: white;
     border: none;
     cursor: pointer;
-    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     margin-top: 20px;
+    
 }
 
 .mainmenubtn2 {
@@ -18,6 +20,9 @@
     background-color: #B81919;
     color: white;
     padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 20px;
 }
 
 .mainMENU:hover {
@@ -30,8 +35,15 @@
 
 .bardestinations {
     position: relative;
+    
 }
-
+.lien {
+    color: inherit;
+    text-decoration: none;
+    font-size: 25px;
+    
+    
+}
 .destinations {
     display: none;
     position: absolute;
@@ -39,13 +51,16 @@
     min-width: 150px;
     right: 0;
     z-index: 10;
+    
 }
 
 .destinations a {
     color: white;
     padding: 15px;
+    font-size: 25px;
     display: block;
     text-decoration: none;
+    padding-right: 90px;
 }
 
 .destinations a:hover {
@@ -58,6 +73,7 @@
 
 .mainmenuvoid {
     background-color: #B81919;
+    margin-bottom: -10px;
     width: 100%;
 }
 footer{
@@ -69,6 +85,12 @@ footer{
     background: var(--yt-spec-base-background);
 }
 
+header{
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
 body{
     background-color: #F5F5F5;
 }
@@ -93,11 +115,14 @@ position: absolute;
   background: linear-gradient(
   to top,
   #eeeeee00 7%,
-  #333333f6 99%
+  #333333b9 99%
 );
 background-clip: titltitretextetextsx;
 }
 .wrapper {
+        margin-right: -10px;
+    margin-left: -10px;
+    margin-top: -10px;
   position: relative;
   display: inline-block;
 }
@@ -117,4 +142,52 @@ background-clip: titltitretextetextsx;
 }
 .titletextsx{
     color: white;
+}
+
+.cards {
+    padding-top: 75px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.card {
+    margin: 0px;
+    display:inline-flex;
+}
+
+.card-img {
+    border-radius: 25px;
+    border-bottom-right-radius: 0px;
+    position: relative;
+    width: 600px;
+}
+
+.card-txt {
+    margin-top: 25px;
+    padding: 10px;
+    color: white;
+    background-color: #BC3131;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    text-align: justify;
+    text-decoration: none;
+}
+.card-txt2 {
+    margin-top: 25px;
+    padding: 10px;
+    color: white;
+    background-color: #BC3131;
+    border-radius: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.card-img2 {
+    border-radius: 25px;
+    border-bottom-left-radius: 0px;
+    position: relative;
+    width: 600px;
 }
