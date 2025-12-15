@@ -135,7 +135,7 @@ body{
   display: inline-block;
 }
 .imagebg{ 
-    background-image: url("LWBWqHw.png");
+    background-image: url("../image/top.png");
     background-size: 1337px 295px;
     width: 10090px;
     
@@ -269,6 +269,11 @@ body{
     text-align: left;
     font-size: 20px;
 }
+.titlearticle2{
+    text-align: right;
+    font-size: 20px;
+}
+
 .btnshit{
     background-color: #ffffff;
     border-radius: 22px;
@@ -319,3 +324,7 @@ body{
     color: white;
 }
 
+.formulaire{
+
+    margin-left: 10px;
+}
